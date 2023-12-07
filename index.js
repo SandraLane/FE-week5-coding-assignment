@@ -1,4 +1,4 @@
-// Teams and Players on those teams
+// Book Classes and Titles on those teams
 class Title {
     constructor(title, author) {
     this.title = title;
@@ -34,7 +34,7 @@ describe() {
 class Menu { // what drives the application and our choices
     constructor() {
     this.bookClasses = [];
-    this.selectedBookClass = null; // manage one team at a time
+    this.selectedBookClass = null; // manage one Book Class at a time
     }
     
 start() { // entry point to application
